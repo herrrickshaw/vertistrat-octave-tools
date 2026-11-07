@@ -1,0 +1,13 @@
+BIOCHAR PLANT (placeholder inputs - replace with vendor quotes)
+  Feed 20 tpd -> biochar 1980 t/yr, credits 3724 t CO2e/yr at full rate (0.56 credits per t feed)
+  NPV @12%: USD -82011   IRR: 10.8%   payback: 7.4 yrs   break-even credit price: USD 153/t
+
+PROJECT FINANCE (same plant, 60% debt at 10.5%, 7 yrs)
+  Debt service USD 150335/yr, minimum DSCR 0.35
+
+GAS DEMAND, WEST BENGAL FY2030 (mmscmd)   Low   Base   High
+  City gas                                0.69   1.88   4.10
+  Anchor (fertiliser)                     2.40   2.70   2.70
+  Total                                   3.09   4.58   6.80
+
+FEEDSTOCK LAND: 100,000 t oil/yr at 3.5-5 t/ha -> 20000-28571 ha; full supply in year 9 if planted over 3 years

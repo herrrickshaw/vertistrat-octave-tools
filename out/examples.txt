@@ -11,3 +11,46 @@ GAS DEMAND, WEST BENGAL FY2030 (mmscmd)   Low   Base   High
   Total                                   3.09   4.58   6.80
 
 FEEDSTOCK LAND: 100,000 t oil/yr at 3.5-5 t/ha -> 20000-28571 ha; full supply in year 9 if planted over 3 years
+
+=====  DETAILED MODELS  =====
+All biochar and plantation inputs below are PLACEHOLDERS, not data about any company.
+
+5. BIOCHAR PLANT, DETAILED (25 wet tpd at 20% moisture, 60% debt at 10.5%, 8 yrs incl. 1 yr moratorium)
+   Credits at full rate: 3724 t CO2e/yr (1.88 per t biochar)
+   Project IRR: -1.1% before tax, -1.1% after tax   Equity IRR: -3.7%
+   NPV after tax @12%: USD -1095074   Equity NPV: USD -1022923
+   DSCR minimum -4.71, average -0.29   LLCR -0.25   Debt USD 720000
+   Operating cost per credit (undiscounted): USD 130   Break-even credit price: USD 221/t
+
+6. TORNADO, NPV swing by input (USD), largest first
+   credit_price               -2038649 to      -303501
+   feed_cost                  -1794941 to      -681444
+   capex_scale                -1655438 to      -694658
+   yield_dry                  -1514204 to      -728066
+   lag                        -1378839 to      -766323
+   permanence                 -1409421 to      -817220
+   mrv_cost_per_credit        -1305706 to      -961706
+
+7. MONTE CARLO, 1500 draws, triangular ranges on price, yield, capex, feed cost, permanence
+   NPV mean USD -1360007   P10 -2132385   P50 -1358870   P90 -613296   P(NPV>0) = 1%
+   Inputs are drawn independently; real price, yield and cost moves are correlated, so the true spread is wider.
+
+8. WEST BENGAL GAS DEMAND PROJECTION (mmscmd) and 1.5 MMTPA terminal loading
+   Year   Low    Base   High   Terminal loading (Base)
+   2026   2.76   3.06   3.06       0%
+   2028   2.93   3.70   4.57      11%
+   2030   3.09   4.58   6.80      42%
+   2035   3.20   5.09   8.72      47%
+   2040   3.32   5.76  11.55      53%
+   Terminal capacity 5.4 mmscmd; assumes the terminal can serve 50% of regional demand.
+
+9. PLANTATION FEEDSTOCK (100,000 t oil/yr; placeholder costs and price)
+   Land 28571 ha   first oil in year 4   full supply in year 9   peak funding USD 47.0 million
+   Levelised cost of oil USD 342/t   Break-even oil yield 0.85 t/ha   Break-even oil price USD 342/t
+   Yield  Hectares   Peak funding (USD m)   Levelised cost (USD/t)   NPV (USD m)
+    0.5     200000        406.5                   1421               -235.3
+    1.0     100000        185.4                    791                 49.1
+    2.0      50000         86.8                    477                191.3
+    3.5      28571         47.0                    342                252.2
+    5.0      20000         31.0                    288                276.6
+   Oil yield per hectare is the weakest input: the 3.5-5 t/ha used in public company material needs field validation.
